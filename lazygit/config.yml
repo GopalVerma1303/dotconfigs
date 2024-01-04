@@ -1,0 +1,10 @@
+customCommands:
+  - key: "q"
+    context: "remoteBranches"
+    command: "git pull {{.SelectedRemote.Name}} {{.SelectedRemoteBranch.Name}}"
+    description: "Pull from remote branch"
+
+  - key: "Q"
+    context: "remoteBranches"
+    command: "git push {{.SelectedRemote.Name}} {{.SelectedRemoteBranch.Name}}"
+    description: "Push to remote branch"
