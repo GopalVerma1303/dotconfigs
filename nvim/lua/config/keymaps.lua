@@ -1,6 +1,6 @@
-local discipline = require("craftzdog.discipline")
-
-discipline.cowboy()
+-- Discipline Checker By Craftzdog
+-- local discipline = require("craftzdog.discipline")
+-- discipline.cowboy()
 
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
