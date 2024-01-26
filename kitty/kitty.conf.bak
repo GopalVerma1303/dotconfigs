@@ -24,7 +24,7 @@
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
-# font_size 11.0
+font_size 17.0
 
 #: Font size (in pts)
 
@@ -290,7 +290,7 @@
 
 #: The thickness of the underline cursor (in pts).
 
-# cursor_blink_interval -1
+cursor_blink_interval 0
 
 #: The interval to blink the cursor (in seconds). Set to zero to
 #: disable blinking. Negative values mean use system default. Note
@@ -1126,7 +1126,7 @@
 
 #: The foreground and background colors.
 
-# background_opacity 1.0
+background_opacity 0.85
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -1150,7 +1150,7 @@
 #: this option when reloading the config will only work if
 #: dynamic_background_opacity was enabled in the original config.
 
-# background_blur 0
+background_blur 20
 
 #: Set to a positive value to enable background blur (blurring of the
 #: visuals behind a transparent window) on platforms that support it.
@@ -1506,6 +1506,8 @@
 #: link when clicked.
 
 # shell_integration enabled
+
+shell_integration no-cursor
 
 #: Enable shell integration on supported shells. This enables features
 #: such as jumping to previous prompts, browsing the output of the
@@ -2469,6 +2471,6 @@
 
 
 # BEGIN_KITTY_THEME
-# Solarized Dark - Patched
+# Solarized Dark Higher Contrast
 include current-theme.conf
 # END_KITTY_THEME
