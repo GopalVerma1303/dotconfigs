@@ -1,4 +1,6 @@
 return {
+	{ "nvim-neotest/nvim-nio" },
+
 	{
 		enabled = false,
 		"folke/flash.nvim",

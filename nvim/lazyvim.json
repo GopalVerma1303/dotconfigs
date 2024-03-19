@@ -8,7 +8,7 @@
     "lazyvim.plugins.extras.editor.leap",
     "lazyvim.plugins.extras.editor.mini-files",
     "lazyvim.plugins.extras.editor.navic",
-    "lazyvim.plugins.extras.editor.symbols-outline",
+    "lazyvim.plugins.extras.editor.outline",
     "lazyvim.plugins.extras.formatting.black",
     "lazyvim.plugins.extras.lang.clangd",
     "lazyvim.plugins.extras.lang.cmake",
@@ -34,5 +34,5 @@
     "NEWS.md": "2123",
     "doc/news.txt": "13995"
   },
-  "version": 2
+  "version": 3
 }
