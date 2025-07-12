@@ -6,6 +6,15 @@ return {
 		version = false, -- set this if you want to always pull the latest change
 		opts = {
 			-- add any opts here
+			provider = "copilot",
+			providers = {
+				copilot = {
+					model = "gpt-4.1-2025-04-14",
+				},
+			},
+			windows = {
+				width = 40, -- Set the initial chat window width (default 30, increase as needed)
+			},
 			mappings = {
 				sidebar = {
 					-- Change these to your preferred keybindings
